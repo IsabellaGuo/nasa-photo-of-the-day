@@ -6,6 +6,7 @@ import HeaderComponents from './components/HeaderComponents/HeaderComponents';
 import IntroComponents from './components/IntroComponents/IntroComponents';
 import ImgComponents from './components/ImgComponents/ImgComponents';
 
+import styled from 'styled-components';
 
 function App() {
   const [img, setImg] = useState();
