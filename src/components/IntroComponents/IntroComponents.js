@@ -2,11 +2,11 @@ import React from "react";
 
 const IntroComponents = (props) => {
     return (
-        <IntroSection>
-            <div className = 'imgTitle'>{props.title}</div>
-            <div className = 'imgDate'>{props.date}</div>
-            <div className = 'imgExplanation'>{props.explanation}</div>
-        </IntroSection>
+        <div>
+            <div className = 'title'>{props.title}</div>
+            <div className = 'date'>{props.date}</div>
+            <div className = 'explanation'>{props.explanation}</div>
+        </div>
     );
 }
 
